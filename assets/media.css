@@ -1,0 +1,203 @@
+@media screen and (max-width:1000px){
+    .bars{
+        display: block;
+    }
+    #menu{
+        width: 2rem;
+    }
+    #close{
+        width: 1.2rem;
+        height: 1.2rem;
+        display: none;
+    }
+    header{
+        height: 60px;
+        position: relative;
+    }
+
+    
+    header nav .logo img{
+        width: 45%;
+        height: 40px;
+    }
+    header nav ul{
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        background-color: #ace9e0;
+        z-index: 10000;
+        width: 100%;
+        left: 0;
+        height: 90vh;
+        top: 10vh;
+        text-align: start;
+        display: none;
+    } 
+    header nav ul .ul1{
+        flex-direction: column;
+        justify-content: center;
+    }
+    header nav ul li{
+        margin-left: 0rem;
+        padding: 0;
+        margin-bottom: 1rem;
+        margin-top: 1rem;
+     }
+     header nav ul li a{
+        font-weight: 600;
+        font-size: 17px;
+        text-decoration: none;
+      }
+    .hero{
+        height: auto;
+        flex-direction: column-reverse;
+    }
+    .hero .hero-txt{
+        width: 95%;
+        margin: auto;
+        margin-top: 1rem;
+    }
+    .sign .hero-txt h3{
+        width: 100%;
+        text-align: center;
+    }
+    .hero .hero-img{
+        width: 90%;
+        margin: auto;
+    }
+    .hero .hero-txt h3{
+        font-size: 24px;
+
+     }
+    .hero .hero-txt p{
+       width: 80%;
+       font-size: 16px;
+    }
+    .hero .hero-img img{
+        height: 35vh;
+    }
+    footer .f-content{
+        grid-template-columns: 1fr;
+    }
+    footer{
+        margin-top: 2rem;
+    }
+
+
+    /* SIGN UP1 */
+    .input{
+        margin-top: 15%;
+        width: 100%;
+    }
+    form .details{
+        width: 100%;
+    }
+    form .otp h5{
+        font-size: 16px;
+    }
+    form .otp .otp-inputs{
+        width: 100%;
+        flex-direction: column;
+    }
+    form .otp .otp-inputs .otp-inputs1{
+        width: 100%;
+    }
+    form .otp .otp-inputs input{
+        width: 22%;
+    }
+    form .otp .otp-inputs .otp-button{
+        width: 50%;
+        margin-top: 1rem;
+    }
+    form  a{
+        font-size: 16px;
+    }
+    
+
+     /* Password */
+     form .input2{
+        margin-top: 2rem;
+        margin-bottom: 1rem;
+    } 
+    form .create{
+        width: 70%;
+        font-size: 16px;
+    }
+
+    /* comf */
+    .conf .conf-content img{
+        height: 30%;
+        width: 80%;
+    }
+    .conf .conf-content button{
+        width: 60%;
+    }
+
+    /* sign in */
+    .account a{
+        margin-left: 0;
+    }
+
+    /* reset */
+    .set h3{
+        padding-bottom: 2rem;
+    }
+
+
+    /* DASHBOARD */
+    .notify .notify-c{
+        width: 40%;
+        margin-bottom: 1rem;
+    }
+    .profile h5{
+        font-size: 16px;
+    }
+    .edit{
+        width: 95%;
+    }
+    .edit .fields{
+        width: 100%;
+    }
+    .edit .fields .change p{
+        font-size: 15px;
+        width: 80%;
+     }
+
+     /* course reg */
+     
+     .edit-d {
+        overflow-x: scroll;
+    }
+    .days{
+        width: 95%;
+        margin: auto;
+    }
+    .days ul{
+        display: grid;
+        padding-left: 0;
+        grid-template-columns: 1fr 1fr 1fr;
+      }
+      .days ul li{
+        margin: 0;
+        width: 90%;
+        margin-bottom: .8rem;
+        font-size: 13px;
+     }
+
+     /* COURSES */
+     .course-reg .edit-c .courses{
+        grid-template-columns: 1fr 1fr 1fr;
+      }
+     
+     
+     /* COURSE REGISTRATION TABLE */
+     .hid{
+        display: none;
+      }
+}
+
+@media screen and (max-width:400px){
+    .notify .notify-c{
+        width: 60%;
+    }
+}

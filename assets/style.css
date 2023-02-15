@@ -1,0 +1,572 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+.bars{
+    display: none;
+}
+a{
+    text-decoration: none;
+}
+body{
+    position: relative;
+}
+header{
+    width: 100%;
+    height: 100px;
+    background: #559F94;
+}
+header nav{
+    width: 90%;
+    margin: auto;
+    align-items: center;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+header nav .logo{
+    width: 40%;
+}
+
+header nav .logo img{
+    width: 12%;
+}
+
+header nav ul{
+    width: 60%;
+}
+header nav ul .ul1{
+    justify-content: end;
+    display: flex;
+    margin-top: 10px;
+}
+header nav ul li{
+   list-style: none;
+   margin-left: 3rem;
+}
+header nav ul li a{
+   color: #fff;
+   font-size: 16px;
+   text-decoration: none;
+ }
+ header nav ul li a:hover{
+    color: #ace9e0;
+  }
+
+ /* HERO SECTION */
+ .hero{
+    width: 90%;
+    margin: auto;
+    height: 75vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 7%;
+}
+ .hero .hero-txt{
+    width: 50%;
+    text-align: center;
+}
+
+ .hero .hero-txt h3{
+    font-size: 30px;
+    line-height: 41px;
+    color: #222222; 
+    margin-bottom: 5px;
+}
+
+.hero .hero-txt p{
+    font-size: 18px;
+    width: 60%;
+    margin: auto;
+    text-transform: capitalize;
+    color: #222222; 
+}
+
+ .hero .hero-img{
+    width: 60%;
+}
+.hero .hero-img img{
+    width: 100%;
+    height: 65vh;
+}
+
+/* owl carousel */
+.owl-dots .owl-dot span  {
+    width: 15px !important;
+    height: 15px !important;
+}
+.owl-dots .owl-dot.active span  {
+    background: #559F94 !important;
+}
+
+/* FOOTER */
+footer{
+    width: 100%;
+    height: auto;
+    padding: 1.5rem 0 2.5rem 0;
+    background: #A6A6A6;
+    margin-top: 4rem;
+}
+footer .f-content{
+    width: 90%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+footer .f-content .info{
+    width: 90%;
+}
+footer .f-content .info h2{
+    font-size: 19px;
+    line-height: 22px;
+    text-align: center;
+    margin-bottom: 14px;
+}
+
+footer .f-content .info p{
+    font-size: 14px;
+    text-align: justify;
+}
+
+
+
+/* SIGN UP HTML */
+.sign .hero-txt{
+    width: 50%;
+}
+.sign .hero-txt h3{
+    width: 50%;
+   margin: auto;
+   text-align: start;
+}
+.sign .hero-img{
+    width: 50%;
+    height: 70%;
+}
+.input{
+    margin: auto;
+    margin-top: 5%;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    height: 65px;
+    border: 3px solid #559F94;
+    border-radius: 10px;
+}
+.input .i-img{
+    height: 100%;
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-right:2px solid #559F94;
+}
+.input input{
+    width: 70%;
+    margin: auto;
+    border: none;
+    outline: none;
+}
+form .details{
+    width: 80%;
+    margin: auto;
+    margin-top: 2rem;
+    height: 12rem;
+    background-color: #CFE4E1;
+    border-radius: 10px;
+    display: grid;
+    place-items: center;
+}
+form .details h3{
+  font-size: 16px;
+}
+form .otp{
+    margin-top: .7rem;
+}
+form .otp .otp-inputs{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+form .otp .otp-inputs .otp-inputs1{
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+}
+form .otp .otp-inputs input{
+    width: 15%;
+    margin: auto;
+    height: 3.5rem;
+    border: 2px solid #559F94;
+    outline: none;
+    border-radius: 12px;
+}
+form .otp .otp-inputs .otp-button{
+    width: 30%;
+}
+form .otp .otp-inputs button{
+    width: 90%;
+    margin-left: auto;
+    height: 3.5rem;
+    background: #559F94;
+    border-radius: 10px;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 27px;      
+    color: #FFFFFF;
+    border: none;
+}
+form .otp span{
+    color: #5e5e5e;
+    font-size: 16px;
+    font-weight: 600;
+}
+form .otp .resend{
+    color: #000;
+}
+
+
+form  a{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 25px;
+    color: #559F94;
+    text-decoration: none;
+}
+/* PASSWORD HTML */
+form .input2{
+    margin-top: 6rem;
+    margin-bottom: 3.5rem;
+}
+form .create{
+    margin-top: 2rem;
+    width: 50%;
+    height: 55px;
+    background: #559F94;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    color: #fff;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+/* CONFIRMATION HTML */
+.conf{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: hsla(0, 0%, 100%, .9);
+    display: grid;
+    place-items: center;
+    display: none;
+}
+.conf .conf-content{
+    width: 90%;
+    margin: auto;
+    height: 75%;
+    text-align: center;
+}
+.conf h3{
+   text-align: center;
+   font-size: 24px; 
+   font-weight: 700;
+   margin-bottom: 1rem;
+}
+.conf .conf-content img{
+    width: 70%;
+    margin: auto;
+    height: 60%;
+}
+.conf .conf-content button{
+    width: 30%;
+    border: none;
+    outline: none;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 700;
+    height: 55px;
+    background: #559F94;
+    border-radius: 10px;
+}
+
+/* SIGN IN */
+.sign-in{
+    margin-top: 1rem;
+}
+.sign-in .forgot{
+    margin-left: 5px;
+    color: red;
+}
+.account{
+    width: 90%;
+    text-align: start;
+    margin-top: 3rem;
+}
+.account span{
+    color: #222222;
+    font-size: 17px;
+}
+.account a{
+    color: #000;
+    border: 2px solid #559F94;
+    margin-left: 10px;
+    padding: 5px 20px;
+    border-radius: 8px;
+}
+
+/* REset */
+.pass{
+    height: 60vh;
+}
+.set h3{
+    padding-bottom: 5rem;
+}
+.otp .reset{
+    flex-direction: column;
+}
+.otp .reset .otp-inputs1{
+    width: 90%;
+    margin: auto;
+}
+.otp .reset .otp-button{
+    margin: auto;
+    margin-top: 1rem;
+}
+
+/* DASHBOARD HTML */
+
+.notify{
+    margin: auto;
+    margin-top: .7rem;
+    width: 90%;
+    text-align: end;
+}
+.notify .notify-c{
+    width: 13%;
+    justify-content: space-between;
+    display: flex;
+    margin-left: auto;
+}
+.notify .notify-c img{
+    width: 1.5rem;
+    height: 1.5rem;
+}
+.notify .notify-c h6{
+    color: #559F94;
+}
+.profile{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    height: 4rem;
+    align-items: center;
+}
+.profile img{
+    width: 4rem;
+    height: 100%;
+}
+.profile h5{
+    margin-left: 10px;
+    font-size: 18px;
+    color: #222222;
+}
+
+.edit{
+    width: 90%;
+    margin: auto;
+    margin-top: 2rem;
+    padding-bottom: 2rem;
+}
+.edit h4{
+    width: 90%;
+    margin: auto;
+    font-size: 18px;
+    color: #559F94;
+    margin-bottom: 1rem;
+}
+.edit-d{
+    width: 100%;
+    height: 50vh;
+    border-radius: 10px;
+    background-color: #CFE4E1;
+}
+.edit .fields{
+    width: 90%;
+    margin-left: auto;
+    display: flex;
+    margin-top: 10px;
+}
+.edit .fields .change{
+    width: 85%;
+    display: flex;
+}
+.edit .fields .change img{
+    width: 1.4rem;
+    height: 1.4rem;
+}
+.edit .fields .change p{
+   margin-left: 10px;
+   font-size: 18px;
+}
+.edit .fields span{
+    width: 15%;
+    text-align: center;
+    font-size: 18px;
+    color: #559F94;
+ }
+
+
+
+
+
+ /* COURSE REG HTML */
+
+ .active{
+    background-color: #fff;
+    padding:5px;
+    border-radius: 8px;
+ }
+ .active a{
+    color: #000;
+ }
+ .course-reg{
+    height: auto;
+    padding: 1rem 0;
+ }
+ .course-reg .edit-c{
+    width: 95%;
+    margin: auto;
+    display: flex;
+ }
+ .course-reg .edit-c .reg{
+   width: 85%;
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr 1fr;
+ }
+
+ .course-reg .edit-c .reg .reg1{
+    width: 100%;
+    text-align: center;
+    margin-top: .5rem;
+  }
+  .course-reg .edit-c .reg .reg1 h3{
+    font-weight: 600;
+    font-size: 16px;
+    padding-bottom: .5rem;
+  }
+  .course-reg .edit-c .reg .reg1 p{
+    font-weight: 400;
+    font-size: 16px;
+  }
+  .course-reg .check{
+    width: 15%;
+    text-align: center;
+    margin-top: 2.3rem;
+  }
+  .course-reg .check input{
+   height: 30px;
+   width: 1rem;
+   margin-bottom:.6rem;
+   background-color: transparent;
+  }
+  form .edit .course-submit{
+    width: 95%;
+    margin: auto;
+    text-align: end;
+    margin-top: .8rem;
+  }
+  form .edit button{
+    font-weight: 700;
+    font-size: 18px;
+    color: #559F94;
+    border: none;
+    outline: none;
+    background-color: transparent;
+  }
+  .conf .spray img{
+    height: 70vh;
+ }
+
+  /* COURSE HTML */
+  .cos{
+    flex-direction: column;
+  }
+  .cos .edit-c{
+    width: 100%;
+  }
+  .cos .edit-c .reg{
+    width: 97%;
+  }
+
+
+  /* TIME TABLE HTML */
+  .course-reg .edit-c .table{
+    grid-template-columns:  1fr 1fr 1fr;
+  }
+
+  .days ul{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  }
+  .days ul li{
+     list-style: none;
+     /* width: 90%; */
+     margin: auto;
+     text-align: center;
+  }
+  .days ul li a{
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: 600;
+    color: #000;
+ }
+
+ .days li{
+    background-color: hsla(0, 0%, 37%, .2);
+    padding: 8px;
+    cursor: pointer;
+    border-radius: 10px;
+ }
+ #mon{
+    background-color: #559F94;  
+ }
+ #two{
+    display: none;
+ }
+ #three{
+    display: none;
+ }
+ #four{
+    display: none;
+ }
+ #five{
+    display: none;
+ }
+
+ /* COURSE REGISTRATION TABLE */
+ table{
+    width: 94%;
+    margin: auto;
+    background-color: #CFE4E1;
+    border-radius: 14px;
+    height: auto;
+    text-align: center;
+ }
+ table tr th{
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+  }
+  table tr td{
+    padding-bottom: 1rem;
+  }
+  
